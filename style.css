@@ -1,0 +1,88 @@
+body {
+	font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+	font-size: .85em;
+	background-color: #e1e9f0;
+	color: #666666;
+}
+
+h1 {
+	color: #555555;
+	text-shadow: 3px 3px 5px #a0a8aF;
+}
+
+.container {
+	width: 412px;
+	margin: 50px auto;
+}
+
+.description {
+	margin-top: -60px;
+	text-align: center;
+}
+
+.windowsContainer {
+	display: table;
+	border: 2px solid #696969;
+	box-shadow: 3px 3px 5px #a0a8aF;
+	outline: none;
+}
+
+.tetrisWindow {
+	width: 250px;
+	height: 400px;
+	display: table-cell;
+	border: 2px solid #696969;
+	background-color: #f8f8ff;
+	position: inherit;
+	float: left;
+}
+
+.infoWindow {
+	width: 150px;
+	height: 350px;
+	color: #696969;
+	background-color: #f8f8ff;
+	line-height: 25px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.scoreLine {
+	line-height: 25px;
+	word-wrap: break-word;
+}
+
+.nextWindow {
+	width: 100px;
+	height: 100px;
+	border: 2px solid #696969;
+	margin: 0px 25px 0px 25px;
+}
+
+.pauseWindow {
+	width: 150px;
+	height: 50px;
+	border: 4px double #696969;
+	background-color: #f8f8ff;
+	color: #696969;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 25px;
+	position: relative;
+	left: 50px;
+	top: -300px;
+}
+
+.block {
+	width: 23px;
+	height: 23px;
+	background-color: #696969;
+	border: 1px solid #f8f8ff;
+	position: relative;
+	float: left;
+}
